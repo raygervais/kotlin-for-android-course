@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="name_raygervais">Ray Gervais</string>
+    <string name="big_star">Big Star</string>
+    <string name="lorem">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et tristique lectus. Aenean lobortis venenatis mi, eleifend convallis ipsum bibendum sed. Fusce pharetra nec massa vel euismod. Nullam risus nibh, consectetur ac leo rutrum, tincidunt scelerisque ex. Maecenas sit amet enim id metus cursus pulvinar. Ut nec interdum arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam facilisis sit amet augue a suscipit. Phasellus vitae hendrerit elit. Phasellus sed erat sit amet tortor semper varius. Proin congue velit quis augue condimentum ornare. Aenean blandit iaculis eros ut tempor. Nullam at pulvinar eros, ut hendrerit purus. Aliquam blandit vitae elit sit amet ultrices. Morbi quis tincidunt enim, et vehicula diam.
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Ut congue tortor nec orci faucibus, eu gravida urna pharetra. Mauris justo neque, venenatis a velit sed, fermentum euismod ante. Pellentesque sit amet metus at felis mollis tempor eget vel urna. Sed pellentesque risus dui, eu vehicula ex suscipit non. In hac habitasse platea dictumst. Nam maximus ipsum nibh, at pulvinar lectus pellentesque nec. Duis odio dui, varius vel scelerisque vitae, scelerisque at odio. Aenean sit amet dapibus dolor, non porta orci. Suspendisse sagittis enim suscipit, vestibulum nunc sit amet, hendrerit erat. Quisque facilisis efficitur sagittis. Nulla et diam quis nisi auctor euismod eget ac mauris. Proin felis urna, malesuada vel egestas et, egestas et nisi.
+
+        Proin luctus ante vel nunc ornare consequat. Vivamus varius interdum nisi in venenatis. Proin mattis vestibulum magna, nec rhoncus neque porttitor a. Fusce tempus volutpat dolor sit amet condimentum. In hendrerit erat ut turpis ornare, eu viverra erat luctus. Mauris vel iaculis nunc. Aliquam ante ligula, elementum a faucibus eu, tincidunt sed dolor. Vestibulum nec sagittis nisl, et pretium purus. Pellentesque eu nisl est.
+    </string>
+    <string name="what_is_your_nickname">What Is Your Nickname?</string>
+    <string name="done">Done</string>
+</resources>

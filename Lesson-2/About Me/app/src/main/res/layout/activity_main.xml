@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_primary">
+
+        <TextView
+                android:text="@string/name_raygervais"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/name_text"
+                android:textAlignment="center"
+                style="@style/NameStyle"/>
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                style="@style/NameStyle"
+                android:id="@+id/nickname_edittext"
+                android:hint="@string/what_is_your_nickname"
+                android:importantForAutofill="no" android:textAlignment="center"/>
+
+        <Button
+                android:text="@string/done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:id="@+id/button"
+                android:background="@color/colorAccent"
+                android:textSize="16sp"
+                android:layout_gravity="center_horizontal"/>
+        <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                style="@style/NameStyle"
+                android:id="@+id/nickname_tv"
+                android:visibility="gone"/>
+        <ImageView
+                app:srcCompat="@android:drawable/btn_star_big_on"
+                android:id="@+id/imageView3"
+                android:contentDescription="@string/big_star"
+                style="@style/star_style"
+                android:padding="@dimen/padding_primary"/>
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    android:text="@string/lorem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingMultiplier="1.2"
+                    android:id="@+id/textView2"/>
+        </ScrollView>
+    </LinearLayout>
+</layout>
