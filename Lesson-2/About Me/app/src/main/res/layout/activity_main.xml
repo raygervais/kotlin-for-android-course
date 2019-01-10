@@ -3,6 +3,13 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools">
+    
+    <data>
+        <variable
+                name="myName"
+                type="raygervais.example.com.aboutme.MyName"
+        />
+    </data>
     <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -10,7 +17,7 @@
             android:padding="@dimen/padding_primary">
 
         <TextView
-                android:text="@string/name_raygervais"
+                android:text="@={myName.name}"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/name_text"
@@ -21,7 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
-                android:ems="10"
+                android:ems="10" 
                 style="@style/NameStyle"
                 android:id="@+id/nickname_edittext"
                 android:hint="@string/what_is_your_nickname"
@@ -38,7 +45,7 @@
                 android:textSize="16sp"
                 android:layout_gravity="center_horizontal"/>
         <TextView
-                android:text="TextView"
+                android:text="@{myName.nickname}"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
